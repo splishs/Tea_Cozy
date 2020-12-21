@@ -1,0 +1,119 @@
+/* Universal Styles*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+    background-color: black;
+    text-align: center;
+    width: 1280px;
+}
+
+/*Banner*/
+
+#banner {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid;
+    align-items: center; /*height of items*/
+    position: fixed; /*not scrollable*/
+    background-color:black;
+    width: 1280px; /*100% is full screen banner*/
+    z-index: 2;
+}
+
+#banner .logo img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+#banner .links {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+#banner .links li {
+    display: inline-block;
+    padding: 10px;
+}
+  #banner .links li a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+/*Mission*/
+#mission {
+    display: flex;
+    background-image: url(../Images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    align-items: center; 
+    margin: 0px 40px;
+}
+#mission h2, #mission h4 {
+    background-color: black;
+    padding: 10px 0px;
+    width: 1200px;
+    margin: 0px; 
+}
+/*Featured*/
+#featured {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    position: relative;
+    left: 140px;
+    flex-wrap: wrap;
+  
+}
+
+#featured.image img {
+    height: 200px;
+    width: 300px;
+    
+}
+
+figure {
+    margin: 10px 15px;
+}
+
+/*Locations*/
+#locations {
+    background-image: url(../Images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    margin: 0px 40px;
+}
+.boxes {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#locations h2 {
+    padding-top: 50px;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    margin: 15px 20px;
+    opacity: 1.0;
+}
+
+/*Footer*/
+#footer {
+    /*justify-content: center;*/
+}
+
+.copy {
+    text-align: left;
+    margin-left: 10px;
+}
